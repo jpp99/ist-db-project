@@ -1,0 +1,16 @@
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 45pt;
+}
+table p{
+    font-size: 30pt;
+}
+
+table{
+
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}

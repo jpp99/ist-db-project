@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Menu Principal</title>
+    <link rel="stylesheet" href="menu_style.css">
+</head>
+
+<body>
+    <h1>SuperMercado</h1>
+    <h2>Menu Principal</h2>
+    <div id="menu_alterar">
+        <h class="menu_p">Altera&ccedil;&otilde;es</h>
+        <div>
+            <button onclick="window.location.href ='categorias/categorias.php'">
+                Inserir e Remover categorias e sub-categorias
+            </button>
+
+        </div>
+        <div>
+            <button onclick="window.location.href ='inserir_remover_produtos/produtos_fornecedores.php'">
+                Inserir e Remover novo produto e seus fornecedor
+            </button>
+        </div>
+        <div>
+            <button onclick="window.location.href ='produtos/produtos.php'">
+                Alterar designa&ccedil;&atilde;o de um produto
+            </button>
+        </div>
+    </div>
+    <div id=menu_listar>
+        <h class="menu_p">Listagens</h>
+        <div>
+            <button onclick="window.location.href ='listar_eventos/input_prod.php'">
+                Listar eventos de reposi&ccedil;&atilde;o de um produto
+            </button>
+        </div>
+        <div>
+            <button onclick="window.location.href='listar_sub/pede_super.php'">
+                Listar todas as sub-categorias de uma super-categoria
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
